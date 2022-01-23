@@ -5,7 +5,7 @@
   "author": "smenshikov",
   "bin": {
     "lucy-in-the-sky-cli": "./bin/run",
-    "lucy-cli": "./bin/run",
+    "lucy-cli": "./bin/run"
   },
   "homepage": "https://github.com/smenshikov/lucy-in-the-sky-cli",
   "license": "MIT",
