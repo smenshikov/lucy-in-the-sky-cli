@@ -20,7 +20,7 @@ $ npm install -g lucy-in-the-sky-cli
 $ lucy-in-the-sky-cli COMMAND
 running command...
 $ lucy-in-the-sky-cli (--version)
-lucy-in-the-sky-cli/0.1.0 darwin-x64 node-v14.15.5
+lucy-in-the-sky-cli/0.2.0 darwin-x64 node-v14.15.5
 $ lucy-in-the-sky-cli --help [COMMAND]
 USAGE
   $ lucy-in-the-sky-cli COMMAND
@@ -45,10 +45,10 @@ Generate table for admin dashboard
 
 ```
 USAGE
-  $ lucy-in-the-sky-cli generate-table -j <value>
+  $ lucy-in-the-sky-cli generate-table -f <value>
 
 FLAGS
-  -j, --jsonFileSrc=<value>  (required) Path to json file with description
+  -f, --file=<value>  (required) Path to json file with description
 
 DESCRIPTION
   Generate table for admin dashboard
@@ -57,7 +57,7 @@ EXAMPLES
   $ lucy-in-the-sky-cli generate-table
 ```
 
-_See code: [dist/commands/generate-table.ts](https://github.com/smenshikov/lucy-in-the-sky-cli/blob/v0.1.0/dist/commands/generate-table.ts)_
+_See code: [dist/commands/generate-table.ts](https://github.com/smenshikov/lucy-in-the-sky-cli/blob/v0.2.0/dist/commands/generate-table.ts)_
 
 ## `lucy-in-the-sky-cli hello PERSON`
 
@@ -81,7 +81,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/smenshikov/lucy-in-the-sky-cli/blob/v0.1.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/smenshikov/lucy-in-the-sky-cli/blob/v0.2.0/dist/commands/hello/index.ts)_
 
 ## `lucy-in-the-sky-cli help [COMMAND]`
 
