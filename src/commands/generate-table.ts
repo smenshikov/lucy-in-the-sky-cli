@@ -1,4 +1,11 @@
 import { Command, Flags } from "@oclif/core";
+import { readFile } from "fs/promises"; // eslint-disable-line unicorn/prefer-node-protocol
+
+interface File {
+  entityName: string;
+  entityFileName: string;
+  entityComponentName: string;
+}
 
 export default class GenerateTable extends Command {
   static description = "Generate table for admin dashboard";
@@ -19,6 +26,8 @@ export default class GenerateTable extends Command {
     const { flags } = await this.parse(GenerateTable);
 
     const { file } = flags;
-    this.log(`json file path: ${file}`);
+    const fileObject: File = JSON.parse(await readFile(file, "utf8"));
+
+    console.log("-!-debug-!-", fileObject);
   }
 }
