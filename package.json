@@ -1,6 +1,6 @@
 {
   "name": "lucy-in-the-sky-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lucy in the Sky CLI",
   "author": "smenshikov",
   "bin": {
