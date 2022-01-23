@@ -18,6 +18,11 @@ export default class GenerateTable extends Command {
       description: "Path to json file with description",
       required: true,
     }),
+    output: Flags.string({
+      char: "o",
+      description: "Path to output folder",
+      default: ".",
+    }),
   };
 
   static args = [];
