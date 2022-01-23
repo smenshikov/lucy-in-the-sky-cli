@@ -1,7 +1,7 @@
 {
   "name": "lucy-in-the-sky-cli",
   "version": "0.0.0",
-  "description": "oclif example Hello World CLI",
+  "description": "Lucy in the Sky CLI",
   "author": "smenshikov",
   "bin": {
     "lucy-in-the-sky-cli": "./bin/run",
